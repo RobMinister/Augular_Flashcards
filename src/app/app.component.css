@@ -1,0 +1,32 @@
+/* Styles for the form and buttons */
+form {
+  margin: 10px;
+  width: 300px;
+}
+
+.clear-btn {
+  margin-left: 10px;
+  background-color: #6c757d; /* Bootstrap grey */
+  color: white;
+  border: none;
+}
+
+.clear-btn:hover {
+  background-color: #5a6268; /* Darker grey on hover */
+}
+
+.flashs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button.is-primary {
+  background-color: #28a745; /* Bootstrap green */
+  color: white;
+  border: none;
+}
+
+.button.is-primary:hover {
+  background-color: #218838; /* Darker green on hover */
+}
