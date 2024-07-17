@@ -14,7 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Click the edit icon (pencil) on the flashcard you want to edit.
 2. Modify the question and/or answer.
-3. Click the "Update" button to save the changes.
+3. Click the "Submit" button to save the changes.
 
 ### Deleting a Flashcard
 
