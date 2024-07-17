@@ -1,27 +1,29 @@
 # AngularFlashcards
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.
+## Usage
 
-## Development server
+### Adding a New Flashcard
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Enter the question in the "Question" input field.
+2. Enter the answer in the "Answer" input field.
+3. Click the "Submit" button to add the flashcard.
 
-## Code scaffolding
+### Editing a Flashcard
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Click the edit icon (pencil) on the flashcard you want to edit.
+2. Modify the question and/or answer.
+3. Click the "Update" button to save the changes.
 
-## Build
+### Deleting a Flashcard
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Click the delete icon (trash) on the flashcard you want to delete.
 
-## Running unit tests
+### Marking as Remembered or Not Remembered
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Click the check icon (checkmark) to mark a flashcard as remembered (green).
+2. Click the cross icon (cross) to mark a flashcard as not remembered (red).
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
